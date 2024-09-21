@@ -19,7 +19,7 @@ document.getElementById("cashOut").addEventListener("click", function(event){
 
 
     }else{
-        // alert("Invalid pin! Please try again later")
+        alert("Invalid pin! Please try again later")
         // document.getElementById("CashoutPin").remove("hidden");
         // showError("CashoutPin")
         document.getElementById("cashoutPin").classList.remove("hidden")

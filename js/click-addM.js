@@ -1,10 +1,4 @@
-document.getElementById("addMon").addEventListener("click", function(){
 
-    switchAddMoney("addM")
-    // switchAddCashOut("addC")
-
-
-})
 document.getElementById("addCas").addEventListener("click", function(){
 
     
