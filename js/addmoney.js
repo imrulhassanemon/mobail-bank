@@ -21,7 +21,8 @@ document.getElementById("addmoney").addEventListener("click", function(event){
         
 
     }else{
-        document.getElementById("pinNumber").classList.remove("hidden");
+        // alert("Invalid pin! Please try again later")
+        document.getElementById("addMoneyPin").classList.remove("hidden");
         // alert("Invalid Input")
     }
 
